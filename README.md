@@ -33,12 +33,14 @@ Download a new Docker image
 docker pull httpd 
 ```
 Download the Docker image with Specific version 
- 
+``` 
  docker pull httpd:2.4.52
- 
-To list the docker images on the system with:
-
+ ```
+ To list the docker images on the system with:
+```
 docker images
+```
+
 
 
 docker inspect image <image name>
@@ -46,7 +48,7 @@ docker inspect image <image name>
 To run a container based on an existing Docker image, use the command:
 
 docker run –name myapp -d httpd
-```
+
 To list all the running Container 
 
 docker ps
