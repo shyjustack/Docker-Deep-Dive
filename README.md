@@ -3,7 +3,7 @@
 2)  Container Deployment 
 3)  Image creation 
 4)  Volume management
-5) Docker networking 
+5)  Docker networking 
 
 Docker Installtion for Ubuntu 
 - Update the ubuntu repository 
