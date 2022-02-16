@@ -91,3 +91,15 @@ How to remove the Docker Image?
 ```
 docker rmi docker rmi <Image name>
 ```
+# Image Creation 
+
+Steps 
+
+	• OS - Ubuntu
+	• Update apt repo
+	• Install dependencies using apt
+	• Install python dependencies using pip
+	• Copy source code to /opt folder
+	• Run the web using flask command 
+	
+Minaly two feilds are aviable # Instruction & # Arguement 
