@@ -17,7 +17,7 @@ Use the apt command to install the docker.io package:
 ```
 sudo apt install docker.io
 ```
-Start docker and enable it to start after the system reboot:
+Start docker service and enable it to start after the system reboot:
 ```
 sudo systemctl start docker
 ```
@@ -51,8 +51,6 @@ docker pull httpd:2.4.52  #Specify the version
 ```
 docker images
 docker inspect image <image name>
-docker image ls
-docker history httpd:latest
 docker history httpd
 ```
 - To run a container based on an existing Docker image, use the command:
