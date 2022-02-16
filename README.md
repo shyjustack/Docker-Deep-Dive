@@ -80,3 +80,4 @@ docker image ls
 docker history httpd:latest
 docker history httpd
 docker image inspect httpd
+ d
