@@ -1,4 +1,9 @@
-# Docker Installation Step by Step 
+# Docker Installations and Docker comamnds 
+- Docker installation 
+- Container Deployment 
+- Image creation 
+- Volume management
+- Docker networking 
 
 Update the ubuntu repository 
 ```
