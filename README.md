@@ -56,12 +56,14 @@ docker ps
 List all the docker containers (running/exited/stopped) 
 docker ps –a
 
-Start,Pause,Unpause,restart,Stop the Docker container
+- Start,Pause,Unpause,restart,Stop the Docker container
+ ```
 docker start myapp01 
 docker pause myapp01
 docker unpause myapp01
 docker restart myapp01 
 docker stop myapp01 
+```
 
 $docker rm <CONTAINER ID> -->How to remove or delete Docker Images?
 $docker rmi <Image name>  -->How to remove the Docker Image?
