@@ -1,4 +1,4 @@
-# Docker Training 
+## Docker Training 
 
 1) Docker Installation 
 2) Container Deployment 
@@ -41,7 +41,7 @@ docker run
 ```
 
 
-#Container Deployment
+# Container Deployment
 - Download a new Docker image
 ```
 docker pull httpd 
@@ -102,4 +102,6 @@ Steps
 	• Copy source code to /opt folder
 	• Run the web using flask command 
 	
-Minaly two feilds are aviable # Instruction & # Arguement 
+Minaly two feilds are aviable Instruction &  Arguement 
+<img width="308" alt="image" src="https://user-images.githubusercontent.com/62458394/154254272-559bc548-b7ef-45ed-aa56-c359404a727c.png">
+
