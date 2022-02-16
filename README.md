@@ -1,4 +1,4 @@
-# Docker Installation Step by Step 
+# Docker Training 
 
 1) Docker Installation 
 2) Container Deployment 
@@ -40,7 +40,6 @@ docker container run
 docker run
 ```
 
-##########################################
 
 #Container Deployment
 - Download a new Docker image
