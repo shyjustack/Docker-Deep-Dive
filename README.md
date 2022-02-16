@@ -5,7 +5,7 @@
 4)  Volume management
 5)  Docker networking 
 
-Docker Installtion for Ubuntu 
+Docker Installation for Ubuntu 
 - Update the ubuntu repository 
 - Use the apt command to install the docker.io package:
 ```
