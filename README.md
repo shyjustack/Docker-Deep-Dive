@@ -29,15 +29,9 @@ sudo systemctl status docker
 ```
 Check Our Docker Install and Config
 ```
+docker --version
 docker version
-
 docker info
-
-docker
-
-docker container run
-
-docker run
 ```
 
 
