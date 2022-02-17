@@ -89,18 +89,27 @@ How to remove the Docker Image?
 ```
 docker rmi docker rmi <Image name>
 ```
-# Image Creation 
+# Docker build
+
+- Build an image from a Dockerfile
+
+FROM
+RUN 
+CMD 
 
 Steps 
 
-	• OS - Ubuntu
-	• Update apt repo
-	• Install dependencies using apt
-	• Install python dependencies using pip
-	• Copy source code to /opt folder
-	• Run the web using flask command 
-	
-Minaly two feilds are aviable Instruction &  Arguement 
-
-<img width="308" alt="image" src="https://user-images.githubusercontent.com/62458394/154254272-559bc548-b7ef-45ed-aa56-c359404a727c.png">
-
+	• Create a file named Dockerfile
+	• Add instrction in Dockerfile
+	• Build dockerfil to create image
+	• Run image to create container
+	  
+```	  
+FROM ubuntu
+MAINTAINER shyju
+RUN apt-get update
+CMD ["echo", "Hello World ......! My frist Docker image"]
+```
+```
+docker build -t myimage:1.0 .
+```
