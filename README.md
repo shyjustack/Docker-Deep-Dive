@@ -6,7 +6,7 @@
 4) Volume managment 
 5) Basic Docker networking  
 
-- Docker Installation
+# Docker Installation
 
 Update the ubuntu repository 
 
