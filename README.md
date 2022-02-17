@@ -86,10 +86,11 @@ docker rmi docker rmi <Image name>
 # Docker build
 
 - Build an image from a Dockerfile
-
+```
 - FROM
 - RUN 
 - CMD 
+```
 
 Steps 
 
