@@ -93,9 +93,9 @@ docker rmi docker rmi <Image name>
 
 - Build an image from a Dockerfile
 
-FROM
-RUN 
-CMD 
+- FROM
+- RUN 
+- CMD 
 
 Steps 
 
