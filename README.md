@@ -127,4 +127,23 @@ CMD ["nginx", "-g", "daemon off;"]
 ```
 docker build -t myimage02 .
 ```
+# Volume managment
+
+craete the Volume 
+```
+ docker volume create my-vol
+ ```
+ List volumes:
+ ```
+ docker volume ls
+ ```
+ Inspect a volume:
+ ```
+ docker volume inspect my-vol
+ ```
+ Remove a volume:
+ ```
+ docker volume rm my-vol
+ ```
+
 
