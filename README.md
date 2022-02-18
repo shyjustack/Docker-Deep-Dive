@@ -105,7 +105,7 @@ Steps
 3)  Build dockerfil to create image
 4)  Run image to create container
 
-	  
+- Example 01	  
 ```	  
 FROM ubuntu
 MAINTAINER shyju
@@ -115,3 +115,13 @@ CMD ["echo", "Hello World ......! My frist Docker image"]
 ```
 docker build -t myimage:1.0 .
 ```
+- Example 02 
+```
+FROM ubuntu:latest
+RUN apt update
+RUN apt install -y nginx
+ADD index.html /usr/share/nginx/html/index.html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+```
+
