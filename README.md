@@ -4,7 +4,7 @@
 # Create one VM
  - create 1 Ubuntu linux machine in AZURE Cloud [or] AWS Cloud [or] In your local laptop using Vmware or oracle virtual box or hyper-v  workstation
  - make sure you opened SSH,http,8080 ports for this new VM
-
+# Topics 
 1) Docker Installation 
 2) Container Deployment 
 3) Image creation 
