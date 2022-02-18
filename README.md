@@ -92,7 +92,7 @@ docker rmi docker rmi <Image name>
 
 The specific commands you can use in a dockerfile are:
 
-- FROM, PULL, RUN, and CMD
+FROM, PULL, RUN, and CMD
 
 - FROM - Creates a layer from the ubuntu:18.04
 - PULL - Adds files from your Docker repository
@@ -100,10 +100,11 @@ The specific commands you can use in a dockerfile are:
 - CMD - Specifies what command to run within the container
 
 Steps 
-	• Create a file named Dockerfile
-	• Add instrction in Dockerfile
-	• Build dockerfil to create image
-	• Run image to create container
+1)  Create a file named Dockerfile
+2)  Add instrction in Dockerfile
+3)  Build dockerfil to create image
+4)  Run image to create container
+
 	  
 ```	  
 FROM ubuntu
