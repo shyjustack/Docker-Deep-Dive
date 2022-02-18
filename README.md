@@ -125,6 +125,6 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 ```
-docker build -t myimage:2.0 .
+docker build -t myimage02 .
 ```
 
