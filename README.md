@@ -197,6 +197,7 @@ docker network create my-net
 ```
 docker network ls
 ```
+```
 docker inspect network my-net
 ```
 ```
