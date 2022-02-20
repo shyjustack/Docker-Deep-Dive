@@ -137,9 +137,9 @@ When you create a volume, it is stored within a directory on the Docker host. Wh
 <img width="373" alt="image" src="https://user-images.githubusercontent.com/62458394/154840921-561e7f03-0a44-4a98-a585-0355e2340c8d.png">
 
 
-craete the Volume 
+create the Volume 
 ```
- docker volume create my-vol
+docker volume create my-vol
  ```
  List volumes:
  ```
@@ -184,17 +184,18 @@ docker rm myvm01
 
 
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/62458394/154848524-1c507fbd-0222-4a46-bb4f-303a532a5fdb.png">
+
+List the default netwoking interface 
 ```
 docker network ls
-
+```
 - Create a user defined bridge network 
 ```
 docker network create my-net
+```
 
 ```
-```
 docker network ls
-```
 ```
 docker inspect network my-net
 ```
