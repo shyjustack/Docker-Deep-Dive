@@ -128,6 +128,14 @@ CMD ["nginx", "-g", "daemon off;"]
 docker build -t myimage02 .
 ```
 # Volume managment
+- By default all files created inside a container are stored on a writable container layer
+- tmpfs mounts: A tmpfs mount is not persisted on disk, either on the Docker host or within a container. It can be used by a container during the lifetime of the container, to store non-persistent state or sensitive information
+- Volumes: Created and managed by Docker. You can create a volume explicitly using the docker volume create command, or Docker can create a volume during container or service creation.
+When you create a volume, it is stored within a directory on the Docker host. When you mount the volume into a container, this directory is what is mounted into the container
+- Bind mounts:  Bind mounts have limited functionality compared to volumes. When you use a bind mount, a file or directory on the host machine is mounted into a container. The file or directory is referenced by its full path on the host machine.
+
+<img width="373" alt="image" src="https://user-images.githubusercontent.com/62458394/154840921-561e7f03-0a44-4a98-a585-0355e2340c8d.png">
+
 
 craete the Volume 
 ```
