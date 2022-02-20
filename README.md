@@ -153,5 +153,21 @@ craete the Volume
  ```
  docker volume rm my-vol
  ```
+ - Attach a volume to container 
+ ```
+ docker run -d --name myvm01 --mount source=myvol,destination=/data httpd
+ ```
+ ```
+docker stop myvm01
+```
+```
+docker rm myvm01
+````
+ 
+ - Bind Mounts Example 
+ ```
+ docker run -d --name myvm01 -v /data:/data httpd 
+ ```
+ 
 
 
