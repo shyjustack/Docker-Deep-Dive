@@ -171,18 +171,54 @@ docker rm myvm01
  
  https://docs.docker.com/storage/
  
- # Docker networking 
+ # Docker Networking 
  
  
  <img width="601" alt="image" src="https://user-images.githubusercontent.com/62458394/154846680-202fd3a1-ad79-4d1b-aaab-9ae8a780d16d.png">
  
+ - bridge: The default network driver. If you don’t specify a driver, this is the type of network you are creating.
+- host: For standalone containers, remove network isolation between the container and the Docker host, and use the host’s networking directly
+- none: For this container, disable all networking. Usually used in conjunction with a custom network driver
 
 - Docker network Architecture 
-Publishing port 80 to 8080
+- Publishing port 80 to 8080
 
 
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/62458394/154848524-1c507fbd-0222-4a46-bb4f-303a532a5fdb.png">
+```
+docker network ls
+```
+- Create a user defined bridge network 
+```
+docker network create my-net
 
+```
+```
+docker network ls
+```
+```
+docker inspect network my-net
+```
+```
+docker network rm my-net
+```
+```
+docker network create --driver=bridge --subnet=192.168.0.0/16 my-net
+```
+```
+docker inspect network my-net
+```
+- create a container with defined bridge network 
+
+```
+ docker run -d --network my-net --name vm01 httpd
+``` 
+```
+docker inspect vm01
+```
+```
+ docker exec -it vm01 bash 
+```
 
 
 
