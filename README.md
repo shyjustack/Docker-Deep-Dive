@@ -180,14 +180,13 @@ docker rm myvm01
 - host: For standalone containers, remove network isolation between the container and the Docker host, and use the host’s networking directly
 - none: For this container, disable all networking. Usually used in conjunction with a custom network driver
 
-- Docker network Architecture 
-- Publishing port 80 to 8080
+--> Docker network Architecture  Publishing port 80 to 8080
 
 
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/62458394/154848524-1c507fbd-0222-4a46-bb4f-303a532a5fdb.png">
 ```
 docker network ls
-```
+
 - Create a user defined bridge network 
 ```
 docker network create my-net
