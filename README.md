@@ -176,7 +176,10 @@ docker rm myvm01
  
  <img width="601" alt="image" src="https://user-images.githubusercontent.com/62458394/154846680-202fd3a1-ad79-4d1b-aaab-9ae8a780d16d.png">
  
- <img width="538" alt="image" src="https://user-images.githubusercontent.com/62458394/154848406-a6b6a27c-ab52-4de2-a76c-f220d6611f63.png">
+
+
+
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/62458394/154848524-1c507fbd-0222-4a46-bb4f-303a532a5fdb.png">
 
 
 
