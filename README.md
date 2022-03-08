@@ -54,7 +54,7 @@ docker history httpd
 ```
 - To run a container based on an existing Docker image, use the command:
 ```
-docker run –name myapp -d httpd 
+docker run --name myapp -d httpd 
 ```
 - To list the running Container
 ```
